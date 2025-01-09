@@ -353,12 +353,15 @@
 
 .landing-page .overlap-group {
   position: relative;
-  width: 351px;
+  width: 340px;
   height: 719px;
   top: -13px;
   left: -13px;
   background-color: #ffffff;
   border-radius: 50px;
+  border-style: solid;
+  border-color: #00000014;
+  border-width: 10px;
 }
 
 .landing-page .group-2 {
@@ -860,8 +863,9 @@
   left: -13px;
   background-color: #ffffff;
   border-radius: 50px;
-  border: 13px solid;
-  border-color: #ffffff4c;
+  border-style: solid;
+  border-color: #00000014;
+  border-width: 10px;
 }
 
 .landing-page .overlap-4 {
