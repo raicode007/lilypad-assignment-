@@ -1,8 +1,16 @@
 .container { 
-  width: 1400px;
+  width: 1440px;
   align-self: center;
   margin-inline: auto;
 }
+.text{
+  color: white;
+    border-right: 2px solid#9e2349;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: #9e2349;
+}
+
 .landing-page {
   background-color: #ffffff;
   display: flex;
@@ -1870,6 +1878,7 @@
   font-size: 24px;
   letter-spacing: 0.19px;
   line-height: 33.6px;
+  
 }
 
 .component .sign-up-button {

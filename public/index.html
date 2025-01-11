@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -34,8 +35,9 @@
           <div class="text-wrapper-6">Knowledge Center</div>
           <div class="ellipse-2"></div>
           <div class="frame">
+            <div class="text"></div>
             <p class="unprecedented-era-of">
-              <span class="span">Unprecedented Era of </span> <span class="text-wrapper-7">Real Estate Investing</span>
+              <span class="span">Unprecedented Era of </span> <span class="text-wrapper-7"id="typed"></span>
             </p>
             <p class="p">
               Lilypads uses sophisticated technologies for data-driven decisions in investing, managing and funding
@@ -314,5 +316,13 @@
     </div>
   </body>
 </html>
+<script>
+  new Typed('#typed',{
+  strings : ['Developer','Designer'],
+  typeSpeed : 40,
+  delaySpeed : 90,
+  loop : true
+});
+</script>
  
 
