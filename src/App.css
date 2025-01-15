@@ -1,11 +1,36 @@
+@media (min-width:2000px){
+  .container{
+  background-image: url("https://i.ibb.co/JdYcvZ5/Group-48096419.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-color: #f5f4f8;
+  
+}
+.middle-section{
+  gap: 116px !important;
+}
+.third-section{
+  gap: 180px !important;
+ }
+}
 .container{
   background-image: url("https://i.ibb.co/JdYcvZ5/Group-48096419.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0%;
   background-color: #f5f4f8;
+  
 }
 @media (max-width:450px){.container{
+  background-image: url("https://i.ibb.co/JdYcvZ5/Group-48096419.png");
+  background-size: 0;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-color: #f5f4f8;
+}
+}
+@media (max-width:900px){.container{
   background-image: url("https://i.ibb.co/JdYcvZ5/Group-48096419.png");
   background-size: 0;
   background-repeat: no-repeat;
@@ -254,6 +279,7 @@ margin-block-start: 0;
       padding-left: 8%;
       padding-right: 8%;
       gap: 35px;
+      justify-content: center;
       
       
   }
@@ -271,6 +297,7 @@ margin-block-start: 0;
       padding-right: 8%;
       padding-bottom: 5%;
       gap: 70px;
+      justify-content: center;
   }
   
 h1{
@@ -428,6 +455,7 @@ footer {
   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
+  justify-content: center;
 }
 .footer-subscribe1 {
   margin-bottom: 2rem;
@@ -540,6 +568,7 @@ input[type="email"] {
   margin-top: 0.3125rem;
   border-radius: 15px;
   width: 100%;
+  color: #FFF;
   background-color: transparent;
     border-style: solid;
     border-color: #434443;
