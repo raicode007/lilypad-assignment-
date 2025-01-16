@@ -1,4 +1,15 @@
-
+@media (max-width:450px)
+{input[type="submit"] {
+  background-color: #2E302F;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 1rem 0.9375rem;
+  margin-top: 2% !important;
+  margin-left: 0% !important;
+  border-radius: 15px;
+}
+}
 @media (min-width:2000px){
   .container{
   background-image: url("https://i.ibb.co/JdYcvZ5/Group-48096419.png");
