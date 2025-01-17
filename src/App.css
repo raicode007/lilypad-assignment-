@@ -1,4 +1,43 @@
 @media (max-width:450px)
+{.navbar-brand {
+  display: flex;
+  align-items: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+  padding-left: 0%;
+  
+}
+}
+@media (max-width:450px)
+{.social-list a {
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 50%;
+  color: #7C5AC7;
+  display: inline-flex;
+  height: 50px !important;
+  justify-content: center;
+  margin-right: 15px;
+  width: 50px;
+}
+}
+@media (max-width:450px)
+{input[type="email"] {
+  border: 0;
+  padding: 1rem;
+  margin-top: 0.3125rem;
+  border-radius: 15px;
+  width: 300px !important;
+  color: #FFF;
+  background-color: transparent;
+    border-style: solid;
+    border-color: #434443;
+    border-width: 1px;
+    height: 30px;
+}
+}
+@media (max-width:450px)
 {input[type="submit"] {
   background-color: #2E302F;
   color: #fff;
@@ -60,7 +99,7 @@
 
 @media screen and (min-width: 992px) {
   .section {
-    max-width: 1140px;
+    max-width: 1200px;
     justify-content: center !important;
     
   }
@@ -72,7 +111,7 @@
     align-items: stretch;
     display: flex;
     position: absolute;
-    width: 100%;
+    width: 96%;
   }
   
   .navbar-item, .navbar-link {
@@ -87,7 +126,7 @@
   align-items: center;
   flex-shrink: 0;
   min-height: 3.25rem;
-  padding-left: 10%;
+  padding-left: 5%;
   
 }
 
@@ -116,7 +155,7 @@
 }
 
 .navbar-burger {
-  color: #4a4a4a;
+  color: #900d0d;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -189,17 +228,16 @@
 
 .navbar-item, .navbar-link {
   cursor: pointer;
-  color: #4a4a4a;
+  color:#7C5AC7;
   display: block;
   line-height: 1.5;
   padding: 0em;
   position: relative;
   left: 20%;
+  z-index: 10;
 }
 
-a.navbar-item, .navbar-link {
-  cursor: pointer;
-}
+
 
 .navbar-item .icon:only-child, navbar-link .icon:only-child {
   margin-left: -0.25rem;
@@ -212,7 +250,9 @@ a.navbar-item, .navbar-link {
 
 .navbar-menu li {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 0px;
+  font-size: 14px;
+  font-family: 'Lexend';
 }
 
 .navbar-dropdown {
@@ -298,6 +338,8 @@ a.navbar-item, .navbar-link {
   background-color: transparent;
   border-color: #ffff  !important;
   color:#ffff;
+  font-family: "lexend";
+  font-size: 16px;
 }
 
 .button.is-signup:hover {
@@ -310,6 +352,8 @@ a.navbar-item, .navbar-link {
   color: #000;
   border-color: #fff!important;
   background-color: #ffff;
+  font-family: "lexend";
+  font-size: 16px;
 }
 
 .button.is-login:hover {
@@ -494,8 +538,9 @@ a.navbar-item, .navbar-link {
   
    .hero-section-mobile{
       display: block;
-      padding-top: 80px !important;
+      padding-top: 50px !important;
       text-align: center;
+      padding: 20px;
 }
     .headmobile{
       color: #2F3130;
@@ -795,6 +840,7 @@ font-style: normal;
 font-weight: 800;
 letter-spacing: 0.192px;
 margin-bottom: 5%;
+font-family: "urbanist";
 }
 .social-list {
   display: flex
@@ -871,20 +917,23 @@ input[type="email"] {
   padding: 1rem;
   margin-top: 0.3125rem;
   border-radius: 15px;
-  width: 100%;
+  width: 440px;
   color: #FFF;
   background-color: transparent;
     border-style: solid;
     border-color: #434443;
     border-width: 1px;
+    height: 30px;
 }
 input[type="submit"] {
   background-color: #2E302F;
   color: #fff;
   cursor: pointer;
   border: 0;
-  padding: 1rem 0.9375rem;
-  margin-top: -13%;
-  margin-left: 54.2%;
-  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: -205px;
 }
